@@ -13,5 +13,5 @@ jobs:
         run: |
           sudo apt install -y build-essential
           sudo apt install -y libsodium-dev
-          cd ./src/
+          cd src/
           make
