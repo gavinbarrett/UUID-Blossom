@@ -11,5 +11,4 @@ jobs:
     steps:
     - run: sudo apt install -y build-essential
     - run: sudo apt install -y libsodium-dev
-    - run: sudo make clean
     - run: ls
