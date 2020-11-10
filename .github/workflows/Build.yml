@@ -1,0 +1,14 @@
+name: Build
+
+on:
+  push:
+    branches:
+      master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - run: sudo apt install -y build-essential
+    - run: sudo apt install -y libsodium-devel
+    - run: make
